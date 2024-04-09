@@ -1,0 +1,10 @@
+.text {
+  font-family: var(--footer-text-family);
+  font-size: var(--footer-text-size);
+  color: var(--footer-text-color);
+  letter-spacing: 1.5px;
+  position: relative;
+}
+.text:hover {
+  border-bottom: 1px solid var(--footer-text-color);
+}

@@ -1,0 +1,28 @@
+.link {
+  font-family: "Manrope", sans-serif;
+  font-size: 10px;
+  color: #0c121c;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 22px;
+  position: relative;
+  cursor: pointer;
+}
+.link:hover {
+  color: #005a2b;
+  text-decoration: underline;
+}
+.link::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url("./../../img/components-img/arrow-green.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: inline-flex;
+  position: absolute;
+  top: -1px;
+  left: 0;
+}

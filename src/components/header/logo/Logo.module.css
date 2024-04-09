@@ -1,0 +1,11 @@
+.block {
+  width: clamp(7.938rem, 7.126rem + 4.06vw, 10.625rem);
+  height: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

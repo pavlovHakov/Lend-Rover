@@ -1,0 +1,126 @@
+.wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  z-index: 50;
+  display: none;
+  animation: hide-wrapper 0.8s ease;
+  z-index: 50;
+}
+
+@keyframes hide-wrapper {
+  0% {
+    display: block;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    display: none;
+    background: rgba(255, 255, 255, 0);
+  }
+}
+.showWrapper {
+  display: block;
+  background: rgba(255, 255, 255, 0.7);
+  animation: show-wrapper 0.7s ease;
+}
+
+@keyframes show-wrapper {
+  0% {
+    display: none;
+    background: rgba(255, 255, 255, 0);
+  }
+  100% {
+    display: block;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.wrapperSidebar {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 1;
+  overflow: hidden;
+}
+.sidebar {
+  width: 375px;
+  height: 100vh;
+  font-family: var(--builds-family);
+  color: var(--builds-color);
+  background: rgba(255, 255, 255, 1);
+  border-left: 1.3px solid #dad4d6;
+  padding-top: clamp(3.688rem, 2.754rem + 4vw, 5.75rem);
+  padding-left: 25px;
+  padding-right: 39px;
+  padding-bottom: 25px;
+  position: absolute;
+  top: -1000px;
+  right: 0;
+  opacity: 1;
+  z-index: 50;
+  animation: hide-sidebar 0.7s ease;
+}
+@keyframes hide-sidebar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -1000px;
+  }
+}
+
+.inSidebar {
+  top: 0;
+  animation: show-sidebar 0.7s ease;
+}
+@keyframes show-sidebar {
+  0% {
+    top: -1000px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.cnpOut {
+  width: 44px;
+  height: 44px;
+  padding: 9px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.cnpOut:hover {
+  background: #e9ecec;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.sidebarMenu {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: block;
+  font-size: var(--builds-title-size);
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 66px;
+  border-bottom: 1px solid #e2e2e2;
+  margin: 0;
+}
+@media (max-width: 1186px) {
+  .wrapper {
+    z-index: 500;
+  }
+  .sidebar {
+    padding-top: 0;
+  }
+}

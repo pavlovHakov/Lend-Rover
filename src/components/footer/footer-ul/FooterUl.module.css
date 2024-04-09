@@ -1,0 +1,13 @@
+.wrapp {
+  width: auto;
+  height: 500px;
+  margin-right: 17%;
+}
+.title {
+  font-family: var(--footer-title-family);
+  font-size: var(--footer-title-size);
+  color: var(--footer-title-color);
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,27 @@
+.wrapp {
+  width: auto;
+  height: 500px;
+  margin-right: 7%;
+}
+.title {
+  font-family: var(--footer-title-family);
+  font-size: var(--footer-title-size);
+  color: var(--footer-title-color);
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+}
+.linkBlock {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.linkBlock:hover {
+  text-decoration: underline;
+}

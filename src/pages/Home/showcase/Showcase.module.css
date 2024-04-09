@@ -1,0 +1,13 @@
+.wrapp {
+  width: 100%;
+  height: auto;
+  padding-top: clamp(1.563rem, 1.02rem + 2.17vw, 3.625rem);
+  padding-bottom: clamp(1.563rem, 1.02rem + 2.17vw, 3.625rem);
+  padding-left: clamp(1.563rem, -13.542rem + 20.14vw, 10.625rem);
+  padding-right: clamp(1.563rem, -13.542rem + 20.14vw, 10.625rem);
+  margin: 0 auto;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+}

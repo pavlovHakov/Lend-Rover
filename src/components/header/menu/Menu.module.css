@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: clamp(3rem, 2.7rem + 1.5vw, 4.5rem);
+  margin-top: 0;
+}
+.services {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+@media (max-width: 1186px) {
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    flex-direction: column;
+    top: clamp(3rem, 2.455rem + 2.73vw, 4.5rem);
+    padding-left: 0;
+    background: rgb(245, 247, 246);
+    transition: 0.4s ease;
+    animation: wrapper-show 0.7s ease-out;
+  }
+  .services {
+    display: block;
+  }
+  .hide {
+    animation: wrapper-out 0.7s ease-out forwards;
+  }
+}
+@keyframes wrapper-out {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  20% {
+    opacity: 0.9;
+    display: none;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}

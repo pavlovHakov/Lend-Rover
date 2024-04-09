@@ -1,0 +1,23 @@
+.block {
+  width: 22.4%;
+  height: 300px;
+}
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.title {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  color: #0c121c;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #0c121c;
+}

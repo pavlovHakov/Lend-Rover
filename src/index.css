@@ -1,0 +1,13 @@
+@import "./styles/main.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+* {
+  box-sizing: border-box;
+}

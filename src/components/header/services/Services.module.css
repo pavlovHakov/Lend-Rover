@@ -1,0 +1,17 @@
+.ul {
+  width: 265px;
+  height: 100%;
+  display: flex;
+}
+.empty {
+  display: none;
+}
+
+@media (max-width: 1186px) {
+  .ul {
+    display: none;
+  }
+  .empty {
+    display: block;
+  }
+}
