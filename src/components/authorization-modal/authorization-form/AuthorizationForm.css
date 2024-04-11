@@ -106,15 +106,14 @@
   letter-spacing: 0.5px !important;
   color: #2e2e2e !important;
 }
-
 .custom-select__menu {
   background-color: #fff !important;
   color: #525252 !important;
   border-radius: 0 !important;
   animation: menuIn 0.3s ease-in-out;
   top: 32px !important;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 .custom-select__option {
@@ -124,12 +123,17 @@
   letter-spacing: 0.5px !important;
   color: #2e2e2e !important;
   cursor: pointer !important;
+  border-bottom: 1px solid #c9c9c9 !important;
 }
+
 .custom-select__option--is-focused {
   background-color: rgb(6, 37, 5) !important;
   color: #fff !important;
 }
-
+.custom-select__menu-list {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+}
 @keyframes menuIn {
   0% {
     display: none;

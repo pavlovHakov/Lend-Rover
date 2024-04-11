@@ -12,9 +12,10 @@ import ErrorPages from "../pages/errorPages/ErrorPages";
 import "./../styles/main.css";
 import "./App.css";
 import { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+// import { Routes, Route, Link } from "react-router-dom";
 import Owners from "../pages/owners/Owners";
 import { useEffect } from "react";
+import RoutesWebsite from "../components/routes/RoutesWebsite";
 
 const App = () => {
   const [isRetailers, setIsRetailers] = useState(true);
@@ -37,6 +38,8 @@ const App = () => {
 
   return (
     <div className="wrapper-app">
+      {/* Spinner */}
+
       <div className={elemVisible ? "wrapperSpinner" : "hideSpinner"}>
         <RotatingLines
           visible={true}
@@ -49,26 +52,24 @@ const App = () => {
         />
       </div>
 
+      {/* Routing */}
+
+      <RoutesWebsite />
+
       <Header
         toggleRetailers={() => toggleRetailers()}
         isRetailers={isRetailers}
         toggleBuilds={() => toggleBuilds()}
         isBuilds={isBuilds}
       />
+
       <AuthorizationModal
         toggleRetailers={() => toggleRetailers()}
         isRetailers={isRetailers}
       />
+
       <BuildsModal toggleBuilds={() => toggleBuilds()} isBuilds={isBuilds} />
 
-      <Routes>
-        <Route path="/" element={<Home />} />,
-        <Route path="/purchase" element={<Purchase />} />,
-        <Route path="/vehicles" element={<Vehicles />} />,
-        <Route path="/owners" element={<Owners />} />,
-        <Route path="/explore" element={<Explore />} />,
-        <Route path="*" element={<ErrorPages />} />,
-      </Routes>
       <Footer />
     </div>
   );

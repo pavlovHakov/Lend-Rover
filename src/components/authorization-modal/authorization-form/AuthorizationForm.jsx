@@ -28,6 +28,7 @@ const AuthorizationForm = () => {
             isSearchable={false}
             placeholder="your choice"
             components={animateComponents}
+            // menuIsOpen={true}
           />
         </div>
 
