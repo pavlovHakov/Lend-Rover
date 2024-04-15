@@ -1,7 +1,8 @@
-import FooterLink from "../../../reused-Components/footer-link/FooterLink";
+import LinkDecoration from "../../../reused-Components/llink-decoration/LinkDecoration";
+import FooterLink from "../../../reused-Components/llink-decoration/LinkDecoration";
 import styles from "./FooterUl.module.css";
 
-const FooterUl = ({ arrUl }) => {
+const FooterUl = ({ arrUl, id }) => {
   return (
     <ul className={styles.wrapp}>
       {arrUl.map((item) => (
@@ -9,7 +10,7 @@ const FooterUl = ({ arrUl }) => {
           <li key={item.id} className={styles.title}>
             {item.title}
           </li>
-          <FooterLink {...item} />
+          <LinkDecoration {...item} />
         </>
       ))}
     </ul>

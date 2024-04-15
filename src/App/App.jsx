@@ -4,17 +4,9 @@ import AuthorizationModal from "../components/authorization-modal/AuthorizationM
 import BuildsModal from "../components/builds-modal/BuildsModal";
 import Footer from "../components/footer/Footer";
 import Header from "./../components/header/Header";
-import Home from "./../pages/Home/Home";
-import Purchase from "./../pages/purchase/Purchase";
-import Vehicles from "../pages/vehicles/Vehicles";
-import Explore from "./../pages/explore/Explore";
-import ErrorPages from "../pages/errorPages/ErrorPages";
 import "./../styles/main.css";
 import "./App.css";
 import { useState } from "react";
-// import { Routes, Route, Link } from "react-router-dom";
-import Owners from "../pages/owners/Owners";
-import { useEffect } from "react";
 import RoutesWebsite from "../components/routes/RoutesWebsite";
 
 const App = () => {
@@ -52,10 +44,6 @@ const App = () => {
         />
       </div>
 
-      {/* Routing */}
-
-      <RoutesWebsite />
-
       <Header
         toggleRetailers={() => toggleRetailers()}
         isRetailers={isRetailers}
@@ -69,6 +57,9 @@ const App = () => {
       />
 
       <BuildsModal toggleBuilds={() => toggleBuilds()} isBuilds={isBuilds} />
+
+      {/* Routing */}
+      <RoutesWebsite />
 
       <Footer />
     </div>

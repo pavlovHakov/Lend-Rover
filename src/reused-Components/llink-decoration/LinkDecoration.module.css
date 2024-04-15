@@ -8,3 +8,6 @@
 .text:hover {
   border-bottom: 1px solid var(--footer-text-color);
 }
+.active {
+  background-color: #e9ecec;
+}

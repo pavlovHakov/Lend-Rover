@@ -1,11 +1,11 @@
 import styles from "./Builds.module.css";
-import flag from "./../../img/header/flag.png";
+import label from "./../../img/header/label-header.svg";
 
 const Builds = ({ toggleBuilds }) => {
   return (
     <li className={styles.li} onClick={() => toggleBuilds()}>
       <span className={styles.link}>builds</span>
-      <img className={styles.img} src={flag} alt="flag" />
+      <img className={styles.img} src={label} alt="flag" />
     </li>
   );
 };

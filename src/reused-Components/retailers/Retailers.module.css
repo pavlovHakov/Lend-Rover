@@ -19,9 +19,9 @@
   background: #e9ecec;
 }
 .img {
-  width: 19px;
+  width: 24px;
   position: absolute;
-  top: 20px;
+  top: 22px;
   left: 103px;
 }
 @media (max-width: 1186px) {

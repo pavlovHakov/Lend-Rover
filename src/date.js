@@ -17,10 +17,17 @@ import img_15 from "./img/footer/insta.svg";
 import img_16 from "./img/footer/tiktok.svg";
 
 export const menuHeader = [
-  { id: "1", path: "/vehicles", text: "vehicles" },
-  { id: "2", path: "/purchase", text: "purchase" },
-  { id: "3", path: "/owners", text: "owners" },
-  { id: "4", path: "/explore", text: "explore" },
+  { id: 0, path: "/vehicles", text: "vehicles" },
+  { id: 1, path: "/purchase", text: "purchase" },
+  { id: 2, path: "/owners", text: "owners" },
+  { id: 3, path: "/explore", text: "explore" },
+];
+
+export const subVehicles = [
+  { id: 0, path: "", text: "ALL VEHICLES" },
+  { id: 1, path: "", text: "ELECTRIC" },
+  { id: 2, path: "", text: "SPECIAL VEHICLE OPERATIONS" },
+  { id: 3, path: "", text: "LAND ROVER CLASSIC" },
 ];
 
 export const footer_ul1 = [

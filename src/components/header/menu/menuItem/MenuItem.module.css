@@ -11,10 +11,13 @@
   letter-spacing: 2.2px;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 42px 11px 28px 11px;
+  padding: 42px 11px 30px 11px;
 }
 .li:hover {
   background: #e9ecec;
+}
+.active {
+  background-color: #e9ecec;
 }
 .img {
   display: none;

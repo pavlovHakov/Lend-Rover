@@ -10,8 +10,8 @@ const RoutesWebsite = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />,
-      <Route path="/purchase" element={<Purchase />} />,
       <Route path="/vehicles" element={<Vehicles />} />,
+      <Route path="/purchase" element={<Purchase />} />,
       <Route path="/owners" element={<Owners />} />,
       <Route path="/explore" element={<Explore />} />,
       <Route path="*" element={<ErrorPages />} />,

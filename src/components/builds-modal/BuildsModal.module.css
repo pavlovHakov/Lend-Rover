@@ -6,7 +6,7 @@
   z-index: 50;
   display: none;
   animation: hide-wrapper 0.8s ease;
-  z-index: 50;
+  z-index: 1000;
 }
 
 @keyframes hide-wrapper {
@@ -58,7 +58,7 @@
   top: -1000px;
   right: 0;
   opacity: 1;
-  z-index: 50;
+  z-index: 1150;
   animation: hide-sidebar 0.7s ease;
 }
 @keyframes hide-sidebar {
