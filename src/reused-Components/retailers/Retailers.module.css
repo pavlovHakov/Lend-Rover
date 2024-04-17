@@ -14,6 +14,7 @@
   font-weight: 600;
   text-transform: uppercase;
   padding: 28px 11px 28px 11px;
+  text-shadow: 0.3px 0 0 #727272;
 }
 .li:hover {
   background: #e9ecec;

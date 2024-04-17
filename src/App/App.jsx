@@ -18,8 +18,6 @@ const App = () => {
     setElemVisible(false);
   });
 
-  // useEffect(() => {}, []);
-
   const toggleRetailers = () => {
     setIsRetailers((isRetailers) => !isRetailers);
   };

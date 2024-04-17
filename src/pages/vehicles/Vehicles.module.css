@@ -1,12 +1,12 @@
 .wrapper {
-  width: 100%;
-  height: 100vh;
-  padding-top: 300px;
-  background-color: #fff;
+  position: fixed;
+  width: 100vw;
+  background: rgb(213, 63, 63);
+  z-index: 50;
+  z-index: 1;
+  transition: all 1s;
 }
-.h1 {
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
-  color: brown;
+
+.showWrapper {
+  height: 100%;
 }

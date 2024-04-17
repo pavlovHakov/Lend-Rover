@@ -1,0 +1,12 @@
+.wrapper {
+  position: fixed;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  z-index: 50;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.showWrapper {
+  height: 70%;
+}

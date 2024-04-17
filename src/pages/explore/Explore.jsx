@@ -1,7 +1,15 @@
 import styles from "./Explore.module.css";
 
-const Explore = () => {
-  return <div>Explore</div>;
+const Explore = ({ isVehicles }) => {
+  return (
+    <div
+      className={
+        isVehicles ? styles.wrapper : `${styles.wrapper} ${styles.showWrapper}`
+      }
+    >
+      <div className={styles.h1}>I love you life</div>
+    </div>
+  );
 };
 
 export default Explore;

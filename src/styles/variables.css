@@ -4,6 +4,8 @@
   --builds-link-size: 12px;
   --builds-color: rgb(9, 0, 0);
 
+  --header-menu-family: "Lato", sans-serif;
+
   --footer-bg: #fff;
 
   --footer-title-family: "Lato", sans-serif;
@@ -51,3 +53,9 @@
 /* font-family: "Manrope", sans-serif;
    font-weight: <weight>;
    font-style: normal; */
+
+/* .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  } */

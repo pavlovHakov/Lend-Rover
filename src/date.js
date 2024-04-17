@@ -30,6 +30,15 @@ export const subVehicles = [
   { id: 3, path: "", text: "LAND ROVER CLASSIC" },
 ];
 
+export const subPurchase = [
+  { id: 0, path: "", text: "TOOLS" },
+  { id: 1, path: "", text: "OFFERS AND FINANCE" },
+  { id: 2, path: "", text: "APPROVED USED" },
+  { id: 3, path: "", text: "FLEET AND BUSINESSFLEET AND BUSINESS" },
+  { id: 3, path: "", text: "FLEET AND BUSINESS" },
+  { id: 3, path: "", text: "ONLINE STORE" },
+];
+
 export const footer_ul1 = [
   { id: "1t", title: "VEHICLES" },
   { id: "1", text: "DISCOVERY" },

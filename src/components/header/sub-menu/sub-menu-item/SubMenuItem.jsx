@@ -1,10 +1,10 @@
-import FooterLink from "../../../../reused-Components/llink-decoration/LinkDecoration";
+import LinkDecoration from "../../../../reused-Components/llink-decoration/LinkDecoration";
 import styles from "./SubMenuItem.module.css";
 
 const SubMenuItem = ({ text, path }) => {
   return (
     <li className={styles.li}>
-      <FooterLink text={text} path={path} />
+      <LinkDecoration text={text} path={path} />
 
       {/* <Link
         to={path}
