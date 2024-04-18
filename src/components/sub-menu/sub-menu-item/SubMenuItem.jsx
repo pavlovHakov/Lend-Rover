@@ -1,10 +1,10 @@
-import LinkDecoration from "../../../reused-Components/llink-decoration/LinkDecoration";
+import LinkDecorationLg from "../../../reused-Components/link-decoration-lg/LinkDecorationLg";
 import styles from "./SubMenuItem.module.css";
 
 const SubMenuItem = ({ text, path }) => {
   return (
     <li className={styles.li}>
-      <LinkDecoration text={text} path={path} />
+      <LinkDecorationLg text={text} path={path} />
 
       {/* <Link
         to={path}

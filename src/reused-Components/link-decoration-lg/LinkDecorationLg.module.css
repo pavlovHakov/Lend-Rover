@@ -1,0 +1,13 @@
+.text {
+  font-family: var(--header-menu-family);
+  font-size: var(--header-menu-size);
+  color: var(--footer-text-color);
+
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-shadow: 0.3px 0 0 #727272;
+  text-transform: uppercase;
+}
+.text:hover {
+  border-bottom: 1px solid var(--footer-text-color);
+}

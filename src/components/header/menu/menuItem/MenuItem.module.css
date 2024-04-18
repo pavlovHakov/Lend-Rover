@@ -6,7 +6,7 @@
 .link {
   display: inline-block;
   font-family: var(--header-menu-family);
-  font-size: 12px;
+  font-size: var(--header-menu-size);
   color: #4a4f54;
   letter-spacing: 2.2px;
   font-weight: 700;
