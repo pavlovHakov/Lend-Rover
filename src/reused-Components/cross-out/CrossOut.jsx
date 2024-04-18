@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import styles from "./CrossOut.module.css";
 import cross from "./../../img/components-img/cross-black.svg";
 
-const CrossOut = () => {
+const CrossOut = ({ setActiveIndex }) => {
   return (
-    <Link to="/" className={styles.block}>
+    <Link to="/" onClick={() => setActiveIndex(null)} className={styles.block}>
       <img src={cross} alt="out" />
     </Link>
   );

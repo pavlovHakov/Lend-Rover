@@ -1,11 +1,12 @@
 import styles from "./SubMenu.module.css";
-import { subVehicles } from "./../../../date";
+import { subPurchase, subVehicles } from "./../../date";
 import SubMenuItem from "./sub-menu-item/SubMenuItem";
 import { useState } from "react";
-import CrossOut from "../../../reused-Components/cross-out/CrossOut";
+import CrossOut from "./../../reused-Components/cross-out/CrossOut";
 
-const SubMenu = ({ active }) => {
+const SubMenu = ({ active, setActiveIndex }) => {
   const [arrVenchicles, setArrVechicles] = useState(subVehicles);
+  const [arrPurchase, setArrPurchase] = useState(subPurchase);
 
   // const toggleSubMenu = (){}
 
@@ -19,7 +20,7 @@ const SubMenu = ({ active }) => {
         ))}
       </ul>
 
-      <CrossOut />
+      <CrossOut setActiveIndex={setActiveIndex} />
     </div>
   );
 };

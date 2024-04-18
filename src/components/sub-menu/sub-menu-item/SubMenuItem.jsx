@@ -1,4 +1,4 @@
-import LinkDecoration from "../../../../reused-Components/llink-decoration/LinkDecoration";
+import LinkDecoration from "../../../reused-Components/llink-decoration/LinkDecoration";
 import styles from "./SubMenuItem.module.css";
 
 const SubMenuItem = ({ text, path }) => {
