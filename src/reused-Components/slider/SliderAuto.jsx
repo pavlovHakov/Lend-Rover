@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "./Slider.css";
 
-import img_1 from "./../../img/slider-auto/img-1.png";
+import video from "./../../video/Lend (online-video-cutter.com).mp4";
 import img_2 from "./../../img/slider-auto/img-2.png";
 import Cnp from "../cnp/Cnp";
 
@@ -26,9 +26,9 @@ function SliderAuto() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 9000,
     swipeToSlide: true,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     pauseOnHover: false,
 
     nextArrow: <SampleNextArrow />,
@@ -38,12 +38,14 @@ function SliderAuto() {
     <div className="slider-container">
       <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
         <div>
-          <img className="slider-img" src={img_1} alt="img" />
-
-          <div className="slider-text-block">
-            <p className="slider-text">embrace the impossible</p>
-            <div className="slider-block-zero"></div>
-          </div>
+          <video
+            className="slider-img video-styles"
+            autoplay="autoplay"
+            loop
+            muted
+          >
+            <source src={video} type="video/mp4" />
+          </video>
         </div>
 
         <div>
