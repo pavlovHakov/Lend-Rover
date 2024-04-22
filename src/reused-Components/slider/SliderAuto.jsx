@@ -26,7 +26,7 @@ function SliderAuto() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6900,
+    autoplaySpeed: 7900,
     swipeToSlide: true,
     adaptiveHeight: false,
     pauseOnHover: false,

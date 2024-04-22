@@ -1,10 +1,9 @@
 .wrapper {
   position: fixed;
-  width: 100vw;
+  width: 0;
   background: rgb(213, 63, 63);
-  z-index: 50;
   z-index: 1;
-  transition: all 1s;
+  transition: all 3s;
 }
 
 .showWrapper {
