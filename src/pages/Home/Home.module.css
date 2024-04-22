@@ -1,6 +1,7 @@
 .wrapper {
   width: 100%;
   height: auto;
+  padding-top: clamp(3rem, 2.455rem + 2.73vw, 4.5rem);
 }
 /* .wrapperSpinner {
   position: fixed;

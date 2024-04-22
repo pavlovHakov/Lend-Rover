@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "./Slider.css";
 
-import video from "./../../video/Lend (online-video-cutter.com).mp4";
-import img_2 from "./../../img/slider-auto/img-2.png";
+import video from "./../../video/slider-home.mp4";
+import img_2 from "./../../img/slider-auto/img-1.png";
 import Cnp from "../cnp/Cnp";
 
 function SliderAuto() {
@@ -34,16 +34,12 @@ function SliderAuto() {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SampleNextArrow />,
   };
+
   return (
     <div className="slider-container">
       <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
-        <div>
-          <video
-            className="slider-img video-styles"
-            autoplay="autoplay"
-            loop
-            muted
-          >
+        <div className="video-wrapper">
+          <video className="video-styles" autoplay="autoplay" loop muted>
             <source src={video} type="video/mp4" />
           </video>
         </div>
