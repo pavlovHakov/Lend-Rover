@@ -39,7 +39,7 @@ function SliderAuto() {
     <div className="slider-container">
       <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
         <div className="video-wrapper">
-          <video className="video-styles" autoplay="autoplay" loop muted>
+          <video className="video-styles" autoPlay loop muted>
             <source src={video} type="video/mp4" />
           </video>
         </div>

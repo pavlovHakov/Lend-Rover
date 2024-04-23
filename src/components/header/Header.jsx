@@ -5,12 +5,17 @@ import Services from "./services/Services";
 import { useEffect, useState } from "react";
 import SubMenu from "./../sub-menu/SubMenu";
 
-const Header = ({ toggleRetailers, toggleBuilds }) => {
-  const [activeIndex, setActiveIndex] = useState(null);
+const Header = ({
+  toggleRetailers,
+  toggleBuilds,
+  activeIndex,
+  setActiveIndex,
+}) => {
+  // const [activeIndex, setActiveIndex] = useState(null);
 
   return (
     <>
-      <SubMenu active={activeIndex != null} />
+      <SubMenu active={activeIndex} setActiveIndex={setActiveIndex} />
 
       <div className={styles.wrapper}>
         <Menu

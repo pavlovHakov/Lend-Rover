@@ -4,9 +4,9 @@ import cross from "./../../img/components-img/cross-black.svg";
 
 const CrossOut = ({ setActiveIndex }) => {
   return (
-    <Link to="/" onClick={() => setActiveIndex(null)} className={styles.block}>
+    <div onClick={() => setActiveIndex(null)} className={styles.block}>
       <img src={cross} alt="out" />
-    </Link>
+    </div>
   );
 };
 

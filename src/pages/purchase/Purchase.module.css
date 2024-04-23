@@ -1,12 +1,29 @@
 .wrapper {
+  width: 100%;
+  height: 100%;
   position: fixed;
-  width: 100vw;
-  background: rgb(185, 171, 171);
-  z-index: 50;
+  background: rgb(237, 198, 198);
+  animation: hide-wrapper 0.8s ease;
   z-index: 1;
-  transition: all 1s;
 }
 
+@keyframes hide-wrapper {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
 .showWrapper {
-  height: 100%;
+  animation: show-wrapper 0.7s ease;
+}
+
+@keyframes show-wrapper {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
 }

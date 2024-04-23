@@ -20,7 +20,7 @@ const SubMenu = ({ active, setActiveIndex }) => {
         ))}
       </ul>
 
-      <CrossOut setActiveIndex={setActiveIndex} />
+      <CrossOut setActiveIndex={() => setActiveIndex()} />
     </div>
   );
 };
