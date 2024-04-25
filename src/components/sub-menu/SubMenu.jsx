@@ -12,7 +12,9 @@ const SubMenu = ({ active, setActiveIndex }) => {
 
   return (
     <div
-      className={active ? `${styles.wrapper} ${styles.active}` : styles.wrapper}
+      className={
+        active != null ? `${styles.wrapper} ${styles.active}` : styles.wrapper
+      }
     >
       <ul className={styles.navigation}>
         {arrVenchicles.map((item) => (

@@ -17,10 +17,10 @@ import img_15 from "./img/footer/insta.svg";
 import img_16 from "./img/footer/tiktok.svg";
 
 export const menuHeader = [
-  { id: 0, path: "/vehicles", text: "vehicles" },
-  { id: 1, path: "/purchase", text: "purchase" },
-  { id: 2, path: "/owners", text: "owners" },
-  { id: 3, path: "/explore", text: "explore" },
+  { id: 0, text: "vehicles" },
+  { id: 1, text: "purchase" },
+  { id: 2, text: "owners" },
+  { id: 3, text: "explore" },
 ];
 
 export const subVehicles = [

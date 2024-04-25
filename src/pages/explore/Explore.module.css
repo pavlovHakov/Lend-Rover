@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
+  left: 0;
   background: rgb(63, 213, 145);
   animation: hide-wrapper 0.8s ease;
   z-index: 1;
