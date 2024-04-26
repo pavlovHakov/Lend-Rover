@@ -1,4 +1,6 @@
 .li {
+  width: auto;
+  height: auto;
   margin-right: 1px;
   cursor: pointer;
   transition: all 0.2s;
