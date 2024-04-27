@@ -3,25 +3,18 @@ import Owners from "../pages/owners/Owners";
 import Purchase from "../pages/purchase/Purchase";
 import Vehicles from "../pages/vehicles/Vehicles";
 
-export const ChoicePage = (active, text, toggleActive, qwe) => {
+export const ChoicePage = (active, text, toggleActive) => {
   if (active === true && text === "vehicles" && toggleActive === true) {
     return <Vehicles />;
-  } else if (active === true && text === "vehicles" && toggleActive === false) {
-    return false;
   }
-  if (active === true && text === "purchase") {
+  if (active === true && text === "purchase" && toggleActive === true) {
     return <Purchase />;
-  } else if (active === true && text === "vehicles" && toggleActive === false) {
-    return <div></div>;
   }
-  if (active === true && text === "owners") {
+  if (active === true && text === "owners" && toggleActive === true) {
     return <Owners />;
-  } else if (active === true && text === "vehicles" && toggleActive === false) {
-    return <div></div>;
   }
-  if (active === true && text === "explore") {
+  if (active === true && text === "explore" && toggleActive === true) {
     return <Explore />;
-  } else if (active === true && text === "vehicles" && toggleActive === false) {
-    return <div></div>;
   }
+  return false;
 };
