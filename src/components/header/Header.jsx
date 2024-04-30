@@ -3,13 +3,11 @@ import Menu from "./menu/Menu";
 import Logo from "./logo/Logo";
 import Services from "./services/Services";
 import SubMenu from "./../sub-menu/SubMenu";
+import { useState } from "react";
 
-const Header = ({
-  toggleRetailers,
-  toggleBuilds,
-  activeIndex,
-  setActiveIndex,
-}) => {
+const Header = ({ toggleRetailers, toggleBuilds }) => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
   return (
     <>
       <div className={styles.wrapper}>
@@ -26,7 +24,7 @@ const Header = ({
         />
       </div>
 
-      <SubMenu active={activeIndex} setActiveIndex={setActiveIndex} />
+      <SubMenu activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
     </>
   );
 };

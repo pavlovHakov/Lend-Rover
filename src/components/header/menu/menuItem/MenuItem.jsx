@@ -9,8 +9,6 @@ const MenuItem = ({ text, page, id, isActive, handleClick }) => {
   const clickLi = () => {
     handleClick(id);
     setToggleActive((toggleActive) => !toggleActive);
-    console.log(toggleActive);
-    console.log(isActive);
   };
   return (
     <li className={styles.li}>

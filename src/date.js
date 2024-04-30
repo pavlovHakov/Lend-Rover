@@ -35,8 +35,24 @@ export const subPurchase = [
   { id: 1, path: "", text: "OFFERS AND FINANCE" },
   { id: 2, path: "", text: "APPROVED USED" },
   { id: 3, path: "", text: "FLEET AND BUSINESSFLEET AND BUSINESS" },
-  { id: 3, path: "", text: "FLEET AND BUSINESS" },
-  { id: 3, path: "", text: "ONLINE STORE" },
+  { id: 4, path: "", text: "FLEET AND BUSINESS" },
+  { id: 5, path: "", text: "ONLINE STORE" },
+];
+
+export const subOwners = [
+  { id: 0, path: "", text: "OWNERSHIP" },
+  { id: 1, path: "", text: "ACCESSORIES" },
+  { id: 2, path: "", text: "PLUG-IN ELECTRIC HYBRID (PHEV)" },
+  { id: 3, path: "", text: "SERVICE AND MAINTENANCE" },
+  { id: 4, path: "", text: "WARRANTIES AND INSURANCE" },
+  { id: 5, path: "", text: "ASSISTANCE" },
+];
+
+export const subExplore = [
+  { id: 0, path: "", text: "EXPLORE LAND ROVER" },
+  { id: 1, path: "", text: "ELECTRIFICATION AND INNOVATION" },
+  { id: 2, path: "", text: "LAND ROVER EXPERIENCES" },
+  { id: 3, path: "", text: "PARTNERSHIPS" },
 ];
 
 export const footer_ul1 = [

@@ -1,23 +1,36 @@
 import styles from "./SubMenu.module.css";
-import { subPurchase, subVehicles } from "./../../date";
+import { subExplore, subOwners, subPurchase, subVehicles } from "./../../date";
 import SubMenuItem from "./sub-menu-item/SubMenuItem";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CrossOut from "./../../reused-Components/cross-out/CrossOut";
 
-const SubMenu = ({ active, setActiveIndex }) => {
-  const [arrVenchicles, setArrVechicles] = useState(subVehicles);
-  const [arrPurchase, setArrPurchase] = useState(subPurchase);
-
-  // const toggleSubMenu = (){}
+const SubMenu = ({ activeIndex, setActiveIndex }) => {
+  const [arrSubMenu, setArrSubMenu] = useState(subVehicles);
+  useEffect(() => {
+    if (activeIndex === 0) {
+      setArrSubMenu((item) => (item = subVehicles));
+    }
+    if (activeIndex === 1) {
+      setArrSubMenu((item) => (item = subPurchase));
+    }
+    if (activeIndex === 2) {
+      setArrSubMenu((item) => (item = subOwners));
+    }
+    if (activeIndex === 3) {
+      setArrSubMenu((item) => (item = subExplore));
+    }
+  }, [activeIndex, setArrSubMenu]);
 
   return (
     <div
       className={
-        active != null ? `${styles.wrapper} ${styles.active}` : styles.wrapper
+        activeIndex != null
+          ? `${styles.wrapper} ${styles.active}`
+          : styles.wrapper
       }
     >
       <ul className={styles.navigation}>
-        {arrVenchicles.map((item) => (
+        {arrSubMenu.map((item) => (
           <SubMenuItem key={item.id} {...item} />
         ))}
       </ul>

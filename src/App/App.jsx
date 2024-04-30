@@ -13,7 +13,6 @@ const App = () => {
   const [isRetailers, setIsRetailers] = useState(true);
   const [isBuilds, setIsBuilds] = useState(true);
   const [elemVisible, setElemVisible] = useState(true);
-  const [activeIndex, setActiveIndex] = useState(null);
 
   window.addEventListener("load", function () {
     setElemVisible(false);
@@ -48,8 +47,6 @@ const App = () => {
         isRetailers={isRetailers}
         toggleBuilds={() => toggleBuilds()}
         isBuilds={isBuilds}
-        activeIndex={activeIndex}
-        setActiveIndex={setActiveIndex}
       />
 
       <AuthorizationModal
