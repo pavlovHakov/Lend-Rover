@@ -1,14 +1,13 @@
-import styles from "./Vehicles.module.css";
-import Navigation from "./navigation/Navigation";
+import styles from "./Owners.module.css";
 
-const Vehicles = () => {
+const Owners = () => {
   return (
     <div className={`${styles.wrapper} ${styles.showWrapper}`}>
       <div className={`${styles.content} ${styles.showContent}`}>
-        <Navigation />
+        <div className={styles.h1}>I love you life</div>
       </div>
     </div>
   );
 };
 
-export default Vehicles;
+export default Owners;

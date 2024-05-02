@@ -57,11 +57,11 @@ export const subExplore = [
 
 export const footer_ul1 = [
   { id: "1t", title: "VEHICLES" },
-  { id: "1", text: "DISCOVERY" },
-  { id: "2", text: "DEFENDER" },
-  { id: "3", text: "VEHICLE DATA EMISSIONS" },
-  { id: "4", text: "SPECIAL VEHICLE OPERATIONS" },
-  { id: "5", text: "FLEET & BUSINESS" },
+  { id: 1, text: "DISCOVERY" },
+  { id: 2, text: "DEFENDER" },
+  { id: 3, text: "VEHICLE DATA EMISSIONS" },
+  { id: 4, text: "SPECIAL VEHICLE OPERATIONS" },
+  { id: 5, text: "FLEET & BUSINESS" },
 ];
 
 export const footer_ul2 = [
@@ -73,15 +73,15 @@ export const footer_ul2 = [
 
 export const footer_ul3 = [
   { id: "1t", title: "EXPERIENCE" },
-  { id: "1", text: "DRIVING EXPERIENCES" },
-  { id: "2", text: "ADVENTURE TRAVEL" },
+  { id: 1, text: "DRIVING EXPERIENCES" },
+  { id: 2, text: "ADVENTURE TRAVEL" },
 ];
 export const footer_social = [
-  { id: "1", text: "FACEBOOK", img: img_13 },
-  { id: "2", text: "YOUTUBE", img: img_14 },
+  { id: 1, text: "FACEBOOK", img: img_13 },
+  { id: 2, text: "YOUTUBE", img: img_14 },
 
-  { id: "3", text: "INSTAGRAM", img: img_15 },
-  { id: "4", text: "TIKTOK", img: img_16 },
+  { id: 3, text: "INSTAGRAM", img: img_15 },
+  { id: 4, text: "TIKTOK", img: img_16 },
 ];
 export const homeSliderManualArr = [
   {
@@ -137,4 +137,32 @@ export const options3 = [
   { label: "ENGLISH", value: 2, backgroundColor: "#fff" },
   { label: "RUSSIAN", value: 3, backgroundColor: "#fff" },
   { label: "FRANCE", value: 4, backgroundColor: "#fff" },
+];
+
+import vehicles__img_1 from "./img/range-rover/img-1.png";
+import vehicles__img_2 from "./img/range-rover/img-2.png";
+import vehicles__img_3 from "./img/range-rover/img-3.png";
+import vehicles__img_4 from "./img/range-rover/img-4.png";
+import vehicles__img_5 from "./img/range-rover/img-5.png";
+import vehicles__img_6 from "./img/range-rover/img-6.png";
+import vehicles__img_7 from "./img/range-rover/img-7.png";
+import vehicles__img_8 from "./img/range-rover/img-8.png";
+import vehicles__img_9 from "./img/range-rover/img-9.png";
+
+export const RangeRover = [
+  { id: 0, text: "Range Rover", img: vehicles__img_1 },
+  { id: 1, text: "Land Rover Sport", img: vehicles__img_2 },
+  { id: 2, text: "Land Rover Velar", img: vehicles__img_3 },
+  { id: 3, text: "Land Rover Evoque", img: vehicles__img_4 },
+];
+
+export const RangeDefender = [
+  { id: 0, text: "defender 130", img: vehicles__img_5 },
+  { id: 1, text: "defender 110", img: vehicles__img_6 },
+  { id: 2, text: "defender 90", img: vehicles__img_7 },
+];
+
+export const RangeDiscovery = [
+  { id: 0, text: "DISCOVERY", img: vehicles__img_8 },
+  { id: 1, text: "DISCOVERY SPORT", img: vehicles__img_9 },
 ];

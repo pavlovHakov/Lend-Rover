@@ -18,3 +18,4 @@ export const ChoicePage = (active, text, toggleActive) => {
   }
   return false;
 };
+
