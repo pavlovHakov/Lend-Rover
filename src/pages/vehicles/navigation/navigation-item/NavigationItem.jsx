@@ -1,9 +1,26 @@
 import { Link } from "react-router-dom";
 import styles from "./NavigationItem.module.css";
 
-const NavigationItem = ({ img, text }) => {
+const NavigationItem = ({
+  img,
+  text,
+  id,
+  subText,
+  setItemLink,
+  linkText,
+  setItemImg,
+  setItemSub,
+}) => {
+  const handelOnMause = (item) => {
+    if (item === id) {
+      setItemLink((elem) => (elem = linkText));
+      setItemImg((item) => (item = img));
+      setItemSub((item) => (item = subText));
+    }
+  };
+
   return (
-    <li className={styles.li}>
+    <li onMouseEnter={() => handelOnMause(id)} className={styles.li}>
       <div className={styles.blockImg}>
         <img src={img} alt="img" />
       </div>

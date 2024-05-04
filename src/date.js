@@ -150,10 +150,40 @@ import vehicles__img_8 from "./img/range-rover/img-8.png";
 import vehicles__img_9 from "./img/range-rover/img-9.png";
 
 export const RangeRover = [
-  { id: 0, text: "Range Rover", img: vehicles__img_1 },
-  { id: 1, text: "Land Rover Sport", img: vehicles__img_2 },
-  { id: 2, text: "Land Rover Velar", img: vehicles__img_3 },
-  { id: 3, text: "Land Rover Evoque", img: vehicles__img_4 },
+  {
+    id: 0,
+    text: "RANGE ROVER",
+    subText: "Peerless refinement and luxury.",
+    img: vehicles__img_1,
+    linkText: [
+      "OVERVIEW ",
+      "GALLERY",
+      "EXPLORE",
+      "RANGE ROVER SV",
+      "ELECTRIC HYBRID",
+      "MODELS AND SPECIFICATIONS",
+      "OPTIONS AND ACCESSORIES",
+      "FLEET & BUSINESS",
+    ],
+  },
+  {
+    id: 1,
+    text: "LAND ROVER SPORT",
+    subText: "Visceral. Dramatic. Uncompromising.",
+    img: vehicles__img_2,
+  },
+  {
+    id: 2,
+    text: "LAND ROVER VELAR",
+    subText: "Sophisticated elegance​.",
+    img: vehicles__img_3,
+  },
+  {
+    id: 3,
+    text: "LAND ROVER EVOQUE",
+    subText: "Captivating character.",
+    img: vehicles__img_4,
+  },
 ];
 
 export const RangeDefender = [
