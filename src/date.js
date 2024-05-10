@@ -171,18 +171,42 @@ export const RangeRover = [
     text: "LAND ROVER SPORT",
     subText: "Visceral. Dramatic. Uncompromising.",
     img: vehicles__img_2,
+    linkText: [
+      "OVERVIEW ",
+      "GALLERY",
+      "EXPLORE",
+      "RANGE ROVER SV",
+      "ELECTRIC HYBRID",
+    ],
   },
   {
     id: 2,
     text: "LAND ROVER VELAR",
     subText: "Sophisticated elegance​.",
     img: vehicles__img_3,
+    linkText: [
+      "OVERVIEW",
+      "GALLERY",
+      "EXPLORE",
+      "ELECTRIC HYBRID",
+      "MODELS AND SPECIFICATIONS",
+      "OPTIONS AND ACCESSORIES",
+      "FLEET & BUSINES",
+    ],
   },
   {
     id: 3,
     text: "LAND ROVER EVOQUE",
     subText: "Captivating character.",
     img: vehicles__img_4,
+    linkText: [
+      "OVERVIEW ",
+      "GALLERY",
+      "EXPLORE",
+      "ELECTRIC HYBRID",
+      "MODELS AND SPECIFICATIONS",
+      "OPTIONS AND ACCESSORIES",
+    ],
   },
 ];
 
