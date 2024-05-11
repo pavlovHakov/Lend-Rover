@@ -1,18 +1,15 @@
-import LinkDecorationLg from "../../../reused-Components/link-decoration-lg/LinkDecorationLg";
+import { useEffect, useState } from "react";
 import styles from "./SubMenuItem.module.css";
 
-const SubMenuItem = ({ text, path }) => {
+const SubMenuItem = ({ text, id, handleActive, isActive }) => {
   return (
     <li className={styles.li}>
-      <LinkDecorationLg text={text} path={path} />
-
-      {/* <Link
-        to={path}
-        //   onClick={() => handleClick(id)}
+      <div
+        onClick={() => handleActive(id)}
         className={isActive ? `${styles.link} ${styles.active}` : styles.link}
       >
         {text}
-      </Link> */}
+      </div>
     </li>
   );
 };

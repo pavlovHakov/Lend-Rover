@@ -208,15 +208,76 @@ export const RangeRover = [
       "OPTIONS AND ACCESSORIES",
     ],
   },
-];
 
-export const RangeDefender = [
-  { id: 0, text: "defender 130", img: vehicles__img_5 },
-  { id: 1, text: "defender 110", img: vehicles__img_6 },
-  { id: 2, text: "defender 90", img: vehicles__img_7 },
-];
+  {
+    id: 4,
+    text: "defender 130",
+    subText: "Captivating character.",
+    img: vehicles__img_5,
+    linkText: [
+      "OVERVIEW ",
+      "GALLERY",
+      "EXPLORE",
+      "ELECTRIC HYBRID",
+      "MODELS AND SPECIFICATIONS",
+      "OPTIONS AND ACCESSORIES",
+    ],
+  },
+  {
+    id: 5,
+    text: "defender 110",
+    subText: "Captivating character.",
+    img: vehicles__img_6,
+    linkText: [
+      "OVERVIEW ",
+      "GALLERY",
+      "EXPLORE",
+      "ELECTRIC HYBRID",
+      "MODELS AND SPECIFICATIONS",
+      "OPTIONS AND ACCESSORIES",
+    ],
+  },
+  {
+    id: 6,
+    text: "defender 90",
+    subText: "Captivating character.",
+    img: vehicles__img_7,
+    linkText: [
+      "OVERVIEW ",
+      "GALLERY",
+      "EXPLORE",
+      "ELECTRIC HYBRID",
+      "MODELS AND SPECIFICATIONS",
+      "OPTIONS AND ACCESSORIES",
+    ],
+  },
 
-export const RangeDiscovery = [
-  { id: 0, text: "DISCOVERY", img: vehicles__img_8 },
-  { id: 1, text: "DISCOVERY SPORT", img: vehicles__img_9 },
+  {
+    id: 7,
+    text: "DISCOVERY",
+    subText: "Captivating character.",
+    img: vehicles__img_8,
+    linkText: [
+      "OVERVIEW ",
+      "GALLERY",
+      "EXPLORE",
+      "ELECTRIC HYBRID",
+      "MODELS AND SPECIFICATIONS",
+      "OPTIONS AND ACCESSORIES",
+    ],
+  },
+  {
+    id: 8,
+    text: "DISCOVERY SPORT",
+    subText: "Captivating character.",
+    img: vehicles__img_9,
+    linkText: [
+      "OVERVIEW ",
+      "GALLERY",
+      "EXPLORE",
+      "ELECTRIC HYBRID",
+      "MODELS AND SPECIFICATIONS",
+      "OPTIONS AND ACCESSORIES",
+    ],
+  },
 ];

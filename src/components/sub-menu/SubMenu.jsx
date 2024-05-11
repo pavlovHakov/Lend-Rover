@@ -6,6 +6,8 @@ import CrossOut from "./../../reused-Components/cross-out/CrossOut";
 
 const SubMenu = ({ activeIndex, setActiveIndex }) => {
   const [arrSubMenu, setArrSubMenu] = useState(subVehicles);
+  const [isActive, setIsActive] = useState(0);
+
   useEffect(() => {
     if (activeIndex === 0) {
       setArrSubMenu((item) => (item = subVehicles));
@@ -30,8 +32,12 @@ const SubMenu = ({ activeIndex, setActiveIndex }) => {
       }
     >
       <ul className={styles.navigation}>
-        {arrSubMenu.map((item) => (
-          <SubMenuItem key={item.id} {...item} />
+        {arrSubMenu.map((item, index) => (
+          <SubMenuItem
+            {...item}
+            handleActive={() => setIsActive(index)}
+            isActive={isActive === index}
+          />
         ))}
       </ul>
 

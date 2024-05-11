@@ -10,12 +10,14 @@ const NavigationItem = ({
   linkText,
   setItemImg,
   setItemSub,
+  setItemTitle,
 }) => {
   const handelOnMause = (item) => {
     if (item === id) {
       setItemLink((elem) => (elem = linkText));
       setItemImg((item) => (item = img));
       setItemSub((item) => (item = subText));
+      setItemTitle((item) => (item = text));
     }
   };
 
