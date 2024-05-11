@@ -1,6 +1,6 @@
-import styles from "./Purchase.module.css";
+import styles from "./Shop.module.css";
 
-const Purchase = () => {
+const Shop = () => {
   return (
     <div className={`${styles.wrapper} ${styles.showWrapper}`}>
       <div className={`${styles.content} ${styles.showContent}`}>
@@ -10,4 +10,4 @@ const Purchase = () => {
   );
 };
 
-export default Purchase;
+export default Shop;

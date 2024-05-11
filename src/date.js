@@ -11,14 +11,9 @@ import img_10 from "./img/slider-manua/img-10.png";
 import img_11 from "./img/slider-manua/img-11.png";
 import img_12 from "./img/slider-manua/img-12.png";
 
-import img_13 from "./img/footer/face.svg";
-import img_14 from "./img/footer/youtoobe.svg";
-import img_15 from "./img/footer/insta.svg";
-import img_16 from "./img/footer/tiktok.svg";
-
 export const menuHeader = [
   { id: 0, text: "vehicles" },
-  { id: 1, text: "purchase" },
+  { id: 1, text: "shop" },
   { id: 2, text: "owners" },
   { id: 3, text: "explore" },
 ];
@@ -30,7 +25,7 @@ export const subVehicles = [
   { id: 3, path: "", text: "LAND ROVER CLASSIC" },
 ];
 
-export const subPurchase = [
+export const subShop = [
   { id: 0, path: "", text: "TOOLS" },
   { id: 1, path: "", text: "OFFERS AND FINANCE" },
   { id: 2, path: "", text: "APPROVED USED" },
@@ -76,6 +71,12 @@ export const footer_ul3 = [
   { id: 1, text: "DRIVING EXPERIENCES" },
   { id: 2, text: "ADVENTURE TRAVEL" },
 ];
+
+import img_13 from "./img/footer/face.svg";
+import img_14 from "./img/footer/youtoobe.svg";
+import img_15 from "./img/footer/insta.svg";
+import img_16 from "./img/footer/tiktok.svg";
+
 export const footer_social = [
   { id: 1, text: "FACEBOOK", img: img_13 },
   { id: 2, text: "YOUTUBE", img: img_14 },

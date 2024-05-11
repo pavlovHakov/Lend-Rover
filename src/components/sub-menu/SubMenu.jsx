@@ -1,5 +1,5 @@
 import styles from "./SubMenu.module.css";
-import { subExplore, subOwners, subPurchase, subVehicles } from "./../../date";
+import { subExplore, subOwners, subShop, subVehicles } from "./../../date";
 import SubMenuItem from "./sub-menu-item/SubMenuItem";
 import { useEffect, useState } from "react";
 import CrossOut from "./../../reused-Components/cross-out/CrossOut";
@@ -13,7 +13,7 @@ const SubMenu = ({ activeIndex, setActiveIndex }) => {
       setArrSubMenu((item) => (item = subVehicles));
     }
     if (activeIndex === 1) {
-      setArrSubMenu((item) => (item = subPurchase));
+      setArrSubMenu((item) => (item = subShop));
     }
     if (activeIndex === 2) {
       setArrSubMenu((item) => (item = subOwners));
