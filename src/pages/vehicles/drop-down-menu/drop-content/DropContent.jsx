@@ -1,4 +1,5 @@
 import styles from "./DropContent.module.css";
+import CarCharacteristics from "./car-characteristics/СarCharacteristics";
 
 const DropContent = ({ img }) => {
   return (
@@ -6,6 +7,7 @@ const DropContent = ({ img }) => {
       <div className={styles.imgBlock}>
         <img src={img} alt="img" />
       </div>
+      <CarCharacteristics />
     </div>
   );
 };

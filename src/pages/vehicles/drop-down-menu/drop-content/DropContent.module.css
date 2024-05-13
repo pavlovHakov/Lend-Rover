@@ -2,8 +2,16 @@
   position: absolute;
   top: 0;
   left: 659px;
-  width: 54%;
+  max-width: 898px;
   height: 100%;
   background: #fff;
   color: #0c121c;
+}
+.imgBlock {
+  width: 100%;
+  height: auto;
+}
+.imgBlock img {
+  width: 100%;
+  height: auto;
 }
