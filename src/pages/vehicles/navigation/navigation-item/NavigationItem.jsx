@@ -6,11 +6,13 @@ const NavigationItem = ({
   text,
   id,
   subText,
+  character,
   setItemLink,
   linkText,
   setItemImg,
   setItemSub,
   setItemTitle,
+  setItemCharacter,
 }) => {
   const handelOnMause = (item) => {
     if (item === id) {
@@ -18,6 +20,7 @@ const NavigationItem = ({
       setItemImg((item) => (item = img));
       setItemSub((item) => (item = subText));
       setItemTitle((item) => (item = text));
+      setItemCharacter((item) => (item = character));
     }
   };
 

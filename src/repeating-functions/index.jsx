@@ -18,3 +18,18 @@ export const ChoicePage = (active, text, toggleActive) => {
   }
   return false;
 };
+
+export const choiceImg = (item, img1, img2, img3, img4) => {
+  if (item === 0) {
+    return <img src={img1} alt="icon" />;
+  }
+  if (item === 1) {
+    return <img src={img2} alt="icon" />;
+  }
+  if (item === 2) {
+    return <img src={img3} alt="icon" />;
+  }
+  if (item === 3) {
+    return <img src={img4} alt="icon" />;
+  }
+};

@@ -150,6 +150,11 @@ import vehicles__img_7 from "./img/range-rover/img-7.png";
 import vehicles__img_8 from "./img/range-rover/img-8.png";
 import vehicles__img_9 from "./img/range-rover/img-9.png";
 
+import icon_1 from "./img/range-rover/icon-fuell.svg";
+import icon_2 from "./img/range-rover/icon-co2.svg";
+import icon_3 from "./img/range-rover/icon-kreslo.svg";
+import icon_4 from "./img/range-rover/icon-porshen.svg";
+
 export const RangeRover = [
   {
     id: 0,
@@ -166,6 +171,12 @@ export const RangeRover = [
       "OPTIONS AND ACCESSORIES",
       "FLEET & BUSINESS",
     ],
+    character: [
+      { id: 0, text: "FROM 0,6†† l/100km UP TO 448,4†† MPG" },
+      { id: 1, text: "AS LOW AS 16†† g/km" },
+      { id: 2, text: "5 SEATS" },
+      { id: 3, text: "1.050✦ LITRES" },
+    ],
   },
   {
     id: 1,
@@ -178,6 +189,12 @@ export const RangeRover = [
       "EXPLORE",
       "RANGE ROVER SV",
       "ELECTRIC HYBRID",
+    ],
+    character: [
+      { id: 0, text: "FROM 0,7† l/100km UP TO 4094† MPG" },
+      { id: 1, text: "AS LOW AS 16† g/km" },
+      { id: 2, text: "5 SEATS" },
+      { id: 3, text: "835✦ LITRES" },
     ],
   },
   {
@@ -194,6 +211,12 @@ export const RangeRover = [
       "OPTIONS AND ACCESSORIES",
       "FLEET & BUSINES",
     ],
+    character: [
+      { id: 0, text: "FROM 1,6†† l/100km UP TO 173,3†† MPG" },
+      { id: 1, text: "AS LOW AS 38†† g/km" },
+      { id: 2, text: "5 SEATS" },
+      { id: 3, text: "748✦ LITRES" },
+    ],
   },
   {
     id: 3,
@@ -208,6 +231,15 @@ export const RangeRover = [
       "MODELS AND SPECIFICATIONS",
       "OPTIONS AND ACCESSORIES",
     ],
+    character: [
+      {
+        id: 0,
+        text: "From 1,4†† Combined l/100km  (Up to 197,5 mpg)††",
+      },
+      { id: 1, text: "AS LOW AS 33†† g/km" },
+      { id: 2, text: "5 SEATS" },
+      { id: 3, text: "591✦ LITRES" },
+    ],
   },
 
   {
@@ -221,6 +253,12 @@ export const RangeRover = [
       "MODELS AND SPECIFICATIONS",
       "OPTIONS AND ACCESSORIES",
       "FLEET & BUSINESS",
+    ],
+    character: [
+      { id: 0, text: "FROM 8,6†† l/100km​ UP TO 32,7†† MPG" },
+      { id: 1, text: "AS LOW AS 226†† g/km" },
+      { id: 2, text: "UP TO 8 SEATS" },
+      { id: 3, text: "UP TO 2.516✦ LITRES" },
     ],
   },
   {
@@ -237,6 +275,12 @@ export const RangeRover = [
       "OPTIONS AND ACCESSORIES",
       "FLEET & BUSINESS",
     ],
+    character: [
+      { id: 0, text: "FROM 2,6†† l/100km​ UP TO 107,0†† MPG" },
+      { id: 1, text: "AS LOW AS 60†† g/km" },
+      { id: 2, text: "UP TO 7 SEATS" },
+      { id: 3, text: "UP TO 2.277✦ LITRES" },
+    ],
   },
   {
     id: 6,
@@ -250,6 +294,12 @@ export const RangeRover = [
       "HARD TOP",
       "OPTIONS AND ACCESSORIES",
       "FLEET & BUSINESS",
+    ],
+    character: [
+      { id: 0, text: "FROM 8,3†† l/100km UP TO 34,1†† MPG" },
+      { id: 1, text: "AS LOW AS 217†† g/km" },
+      { id: 2, text: "UP TO 6 SEATS" },
+      { id: 3, text: "UP TO 1.563✦ LITRES" },
     ],
   },
 
@@ -266,6 +316,12 @@ export const RangeRover = [
       "OPTIONS AND ACCESSORIES",
       "FLEET & BUSINESS",
     ],
+    character: [
+      { id: 0, text: "FROM 8,0†† l/100km UP TO 35,1†† MPG" },
+      { id: 1, text: "FROM 211†† g/km" },
+      { id: 2, text: "7 SEATS" },
+      { id: 3, text: "2,391✦ LITRES" },
+    ],
   },
   {
     id: 8,
@@ -280,6 +336,12 @@ export const RangeRover = [
       "MODELS AND SPECIFICATIONS",
       "OPTIONS AND ACCESSORIES",
       "FLEET & BUSINESS",
+    ],
+    character: [
+      { id: 0, text: "FROM 1,5†† COMBINED l/100km UP TO 187,1†† MPG" },
+      { id: 1, text: "AS LOW AS 34†† g/km" },
+      { id: 2, text: "7 SEATS" },
+      { id: 3, text: "1,651✦ LITRES" },
     ],
   },
 ];
