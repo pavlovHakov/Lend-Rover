@@ -6,6 +6,11 @@
   margin-bottom: 30px;
   cursor: pointer;
   position: relative;
+  border: 1.7px solid #0c121c;
+  transition: all 0.3s;
+}
+.cnp:hover {
+  background: #fff;
 }
 .text {
   display: inline-block;
@@ -16,12 +21,16 @@
   text-transform: uppercase;
   line-height: 46px;
 }
+.cnp:hover .text {
+  color: #0c121c;
+}
 .imgBlock {
   width: 26px;
   position: absolute;
   top: 8px;
   left: 20px;
 }
-.img {
-  fill: #fff;
+.cnp:hover .img {
+  fill: #0c121c;
+  color: #0c121c;
 }
