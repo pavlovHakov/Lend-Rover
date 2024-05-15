@@ -3,7 +3,7 @@
   height: 500px;
   margin-right: 7%;
 }
-.title {
+.text {
   font-family: var(--footer-title-family);
   font-size: var(--footer-title-size);
   color: var(--footer-title-color);
@@ -21,8 +21,27 @@
   height: 50px;
   display: inline-block;
   margin-right: 10px;
+  transition: all 0.1s;
 }
-.linkBlock:hover {
+.img1 {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin-right: 0px;
+  transition: all 0.1s;
+}
+.linkBlock:hover .text {
   text-decoration: underline;
-  opacity: 0.8;
+}
+.linkBlock:hover .facebook {
+  fill: blue;
+}
+.linkBlock:hover .youTube {
+  fill: rgb(255, 0, 30);
+}
+.linkBlock:hover .instagram {
+  fill: rgb(177, 7, 207);
+}
+.linkBlock:hover .x {
+  fill: rgb(7, 160, 207);
 }

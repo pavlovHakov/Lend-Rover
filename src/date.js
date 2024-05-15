@@ -72,17 +72,17 @@ export const footer_ul3 = [
   { id: 2, text: "ADVENTURE TRAVEL" },
 ];
 
-import img_13 from "./img/footer/face.svg";
-import img_14 from "./img/footer/youtoobe.svg";
-import img_15 from "./img/footer/insta.svg";
-import img_16 from "./img/footer/tiktok.svg";
+// import img_13 from "./img/footer/face.svg";
+// import img_14 from "./img/footer/youtoobe.svg";
+// import img_15 from "./img/footer/insta.svg";
+// import img_16 from "./img/footer/tiktok.svg";
 
 export const footer_social = [
-  { id: 1, text: "FACEBOOK", img: img_13 },
-  { id: 2, text: "YOUTUBE", img: img_14 },
+  { id: 1, text: "FACEBOOK" },
+  { id: 2, text: "YOUTUBE" },
 
-  { id: 3, text: "INSTAGRAM", img: img_15 },
-  { id: 4, text: "TIKTOK", img: img_16 },
+  { id: 3, text: "INSTAGRAM" },
+  { id: 4, text: "X" },
 ];
 export const homeSliderManualArr = [
   {
