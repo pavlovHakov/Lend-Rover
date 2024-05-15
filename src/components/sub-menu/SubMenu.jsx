@@ -34,6 +34,7 @@ const SubMenu = ({ activeIndex, setActiveIndex }) => {
       <ul className={styles.navigation}>
         {arrSubMenu.map((item, index) => (
           <SubMenuItem
+            key={index}
             {...item}
             handleActive={() => setIsActive(index)}
             isActive={isActive === index}

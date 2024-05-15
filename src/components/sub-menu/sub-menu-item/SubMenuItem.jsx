@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import styles from "./SubMenuItem.module.css";
 
 const SubMenuItem = ({ text, id, handleActive, isActive }) => {
