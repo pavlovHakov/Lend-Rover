@@ -55,9 +55,13 @@ function SliderAuto() {
 
         <div className="video-wrapper">
           <div className="video-hidden">
-            <video className="video-styles" autoPlay loop muted>
-              <source src={video} type="video/mp4" />
-            </video>
+            <video
+              className="video-styles"
+              src="https://jlr.scene7.com/is/content/jlr/L461SV24GL_303101570_DX_BANNER_H264_6_16x9_1"
+              autoPlay
+              loop
+              muted
+            />
           </div>
           <div className="slider-text-block">
             <p className="slider-text">PIONEERING INNOVATION</p>
