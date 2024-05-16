@@ -2,8 +2,7 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "./Slider.css";
 
-import video from "./../../video/slider-home.mp4";
-import img_2 from "./../../img/slider-auto/img-1.png";
+import video from "./../../video/home-video.mp4";
 import Cnp from "../cnp/Cnp";
 
 function SliderAuto() {
@@ -56,28 +55,9 @@ function SliderAuto() {
 
         <div className="video-wrapper">
           <div className="video-hidden">
-            <video
-              className="video-styles"
-              src="https://jlr.scene7.com/is/content/jlr/L46125MYGL_303103802_SOC_DX_LOOP_CLEAN_HDH264_6_16X9"
-              autoPlay
-              loop
-              muted
-            />
-          </div>
-          <div className="slider-text-block">
-            <p className="slider-text">STEALTH PACK</p>
-            <Cnp text="FIND OUT MORE" />
-          </div>
-        </div>
-        <div className="video-wrapper">
-          <div className="video-hidden">
-            <video
-              className="video-styles"
-              src="https://jlr.scene7.com/is/content/jlr/L462_24GL_303103390_SEAT_CONFIG_USP_10_16x9_H264_TITLED_OPTIMISED"
-              autoPlay
-              loop
-              muted
-            />
+            <video className="video-styles" autoPlay loop muted>
+              <source src={video} type="video/mp4" />
+            </video>
           </div>
           <div className="slider-text-block">
             <p className="slider-text">PIONEERING INNOVATION</p>
