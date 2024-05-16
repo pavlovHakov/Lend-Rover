@@ -48,11 +48,17 @@
   background-color: black;
   cursor: grab;
 }
+.video-hidden {
+  width: 100%;
+  max-height: 664px;
+  overflow: hidden;
+}
 .video-styles {
   width: 100%;
   background-color: black;
   cursor: grab;
-  max-height: 850px;
+  /* overflow: hidden; */
+  /* max-height: 760px; */
 }
 
 .slick-dots li {

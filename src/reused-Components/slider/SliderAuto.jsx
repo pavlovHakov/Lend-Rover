@@ -26,9 +26,9 @@ function SliderAuto() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 7900,
+    autoplaySpeed: 6960,
     swipeToSlide: true,
-    adaptiveHeight: false,
+    adaptiveHeight: true,
     pauseOnHover: false,
 
     nextArrow: <SampleNextArrow />,
@@ -39,15 +39,48 @@ function SliderAuto() {
     <div className="slider-container">
       <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
         <div className="video-wrapper">
-          <video className="video-styles" autoPlay loop muted>
-            <source src={video} type="video/mp4" />
-          </video>
-        </div>
-
-        <div>
-          <img className="slider-img" src={img_2} alt="img" />
+          <div className="video-hidden">
+            <video
+              className="video-styles"
+              src="https://jlr.scene7.com/is/content/jlr/L46025-5MYGL_303103139_DX_LOOP_TALENT_HDH264_6_16x9_carousel"
+              autoPlay
+              loop
+              muted
+            />
+          </div>
           <div className="slider-text-block">
             <p className="slider-text">embrace the impossible</p>
+            <Cnp text="FIND OUT MORE" />
+          </div>
+        </div>
+
+        <div className="video-wrapper">
+          <div className="video-hidden">
+            <video
+              className="video-styles"
+              src="https://jlr.scene7.com/is/content/jlr/L46125MYGL_303103802_SOC_DX_LOOP_CLEAN_HDH264_6_16X9"
+              autoPlay
+              loop
+              muted
+            />
+          </div>
+          <div className="slider-text-block">
+            <p className="slider-text">STEALTH PACK</p>
+            <Cnp text="FIND OUT MORE" />
+          </div>
+        </div>
+        <div className="video-wrapper">
+          <div className="video-hidden">
+            <video
+              className="video-styles"
+              src="https://jlr.scene7.com/is/content/jlr/L462_24GL_303103390_SEAT_CONFIG_USP_10_16x9_H264_TITLED_OPTIMISED"
+              autoPlay
+              loop
+              muted
+            />
+          </div>
+          <div className="slider-text-block">
+            <p className="slider-text">PIONEERING INNOVATION</p>
             <Cnp text="FIND OUT MORE" />
           </div>
         </div>
