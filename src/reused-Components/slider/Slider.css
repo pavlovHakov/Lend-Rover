@@ -1,7 +1,6 @@
 .slider-container {
   border: none;
   outline: none;
-  background: #fff;
   overflow: hidden;
   padding-left: clamp(0rem, -26.786rem + 28.57vw, 7.5rem);
   padding-right: clamp(0rem, -26.786rem + 28.57vw, 7.5rem);
