@@ -1,0 +1,36 @@
+.cnp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 181px;
+  height: 45px;
+  background: #0c121c;
+  /* padding-left: 58px; */
+  margin-bottom: 30px;
+  cursor: pointer;
+  position: relative;
+  border: 1.7px solid #0c121c;
+  transition: all 0.3s;
+}
+.cnp:hover {
+  background: #fff;
+}
+.text {
+  display: inline-block;
+  font-family: "Anta", sans-serif;
+  font-size: 12.5px;
+  color: #fff;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  line-height: 46px;
+}
+.cnp:hover .text {
+  color: #0c121c;
+}
+.imgBlock {
+  width: 26px;
+}
+.cnp:hover .img {
+  fill: #0c121c;
+  color: #0c121c;
+}

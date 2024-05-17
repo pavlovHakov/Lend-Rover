@@ -1,7 +1,7 @@
 import styles from "./DropMenu.module.css";
 import LinkDecorationLg from "../../../../reused-Components/link-decoration-lg/LinkDecorationLg";
 import img from "./../../../../img/components-img/arrow-green.png";
-import CnpBuildOwn from "./../../../../reused-Components/cnp-build-own/CnpBuildOwn";
+import CnpBuildOwn from "./../../../../reused-Components/cnp-car-you/CnpBuildOwn";
 
 const DropMenu = ({ itemTitle, itemSub, itemLink }) => {
   return (

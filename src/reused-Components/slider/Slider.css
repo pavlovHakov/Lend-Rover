@@ -57,8 +57,6 @@
   width: 100%;
   background-color: black;
   cursor: grab;
-  /* overflow: hidden; */
-  /* max-height: 760px; */
 }
 
 .slick-dots li {
@@ -105,8 +103,6 @@
   justify-content: space-between;
   align-items: center;
   padding-left: clamp(1.563rem, -0.757rem + 9.28vw, 10.375rem);
-  /* padding-top: clamp(1.563rem, 0.822rem + 2.96vw, 4.375rem); */
-  /* padding-bottom: clamp(1.563rem, 1.316rem + 0.99vw, 2.5rem); */
 }
 .slider-block-zero {
   width: 1px;

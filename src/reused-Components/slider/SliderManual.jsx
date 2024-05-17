@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import "./../slider/Slider.css";
+import "./Slider.css";
+import "./SliderManual.css";
 
 function SliderManual({ img1, img2, img3 }) {
   let sliderRef = useRef(null);

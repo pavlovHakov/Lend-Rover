@@ -2,8 +2,7 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "./Slider.css";
 
-import video from "./../../video/home-video.mp4";
-import Cnp from "../cnp/Cnp";
+import CnpHover from "../cnp-hover/CnpHover";
 
 function SliderAuto() {
   let sliderRef = useRef(null);
@@ -49,7 +48,7 @@ function SliderAuto() {
           </div>
           <div className="slider-text-block">
             <p className="slider-text">embrace the impossible</p>
-            <Cnp text="FIND OUT MORE" />
+            <CnpHover text="FIND OUT MORE" />
           </div>
         </div>
 
@@ -65,7 +64,7 @@ function SliderAuto() {
           </div>
           <div className="slider-text-block">
             <p className="slider-text">PIONEERING INNOVATION</p>
-            <Cnp text="FIND OUT MORE" />
+            <CnpHover text="FIND OUT MORE" />
           </div>
         </div>
       </Slider>
