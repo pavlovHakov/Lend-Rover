@@ -1,8 +1,9 @@
 .wrapper {
   width: auto;
-  height: 500px;
-  margin-right: 7%;
+  height: auto;
+  /* margin-right: 3%; */
 }
+
 .text {
   font-family: var(--footer-title-family);
   font-size: var(--footer-title-size);
@@ -44,4 +45,13 @@
 }
 .linkBlock:hover .x {
   fill: rgb(7, 160, 207);
+}
+
+@media (max-width: 757px) {
+  .wrapper {
+    display: flex;
+  }
+  .text {
+    display: none;
+  }
 }

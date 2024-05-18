@@ -1,7 +1,7 @@
 .wrapp {
-  width: auto;
-  height: 500px;
-  margin-right: 17%;
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
 }
 .title {
   font-family: var(--footer-title-family);
@@ -10,4 +10,9 @@
   font-weight: 800;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
+}
+@media (max-width: 757px) {
+  .wrapp {
+    display: none;
+  }
 }

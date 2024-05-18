@@ -1,9 +1,30 @@
 .wrapp {
   width: 100%;
   height: auto;
-  padding-left: clamp(1.25rem, -0.888rem + 4.39vw, 4.375rem);
+  padding-left: clamp(2.5rem, -18.105rem + 29.51vw, 17.313rem);
+  padding-right: 34px;
   padding-top: clamp(0rem, -0.85rem + 1.75vw, 1.25rem);
   background: var(--footer-bg);
-
+}
+.blockSocial {
+  width: 80%;
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1223px) {
+  .blockSocial {
+    width: 100%;
+  }
+}
+/* @media (max-width: 923px) {
+  .wrapp {
+    padding-left: 18px;
+  }
+} */
+@media (max-width: 757px) {
+  .wrapp {
+    margin-top: 33px;
+  }
 }
