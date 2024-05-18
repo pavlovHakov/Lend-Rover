@@ -1,6 +1,6 @@
 .block {
   width: 22.4%;
-  height: 300px;
+  height: auto;
 }
 .img {
   width: 100%;
@@ -20,4 +20,16 @@
   font-size: 13px;
   letter-spacing: 0.5px;
   color: #0c121c;
+}
+
+@media (max-width: 1279px) {
+  .block {
+    width: 48.6%;
+    margin-bottom: 41px;
+  }
+}
+@media (max-width: 770px) {
+  .block {
+    width: 100%;
+  }
 }
