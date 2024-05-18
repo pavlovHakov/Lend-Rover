@@ -44,10 +44,15 @@
 }
 .slider-img {
   width: 100%;
-  background-color: black;
+  height: auto;
   cursor: grab;
 }
-.video-hidden {
+.img1 {
+  width: 100%;
+  height: auto;
+}
+.video-hidden,
+.slider-img {
   width: 100%;
   max-height: 664px;
   overflow: hidden;

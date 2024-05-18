@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import img1 from "./../../img/slider-auto/img-2.png";
 import Slider from "react-slick";
 import "./Slider.css";
 
@@ -26,7 +27,6 @@ function SliderAuto() {
     autoplay: true,
     autoplaySpeed: 6960,
     swipeToSlide: true,
-    adaptiveHeight: true,
     pauseOnHover: false,
 
     nextArrow: <SampleNextArrow />,
@@ -53,14 +53,8 @@ function SliderAuto() {
         </div>
 
         <div className="video-wrapper">
-          <div className="video-hidden">
-            <video
-              className="video-styles"
-              src="https://jlr.scene7.com/is/content/jlr/L461SV24GL_303101570_DX_BANNER_H264_6_16x9_1"
-              autoPlay
-              loop
-              muted
-            />
+          <div className="slider-img">
+            <img className="img1" src={img1} alt="img" />
           </div>
           <div className="slider-text-block">
             <p className="slider-text">PIONEERING INNOVATION</p>
