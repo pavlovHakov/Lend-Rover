@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.blockImg {
+  width: 75px;
+  height: auto;
+  margin-left: -5px;
+}
+
+.text1,
+.text2 {
+  font-family: var(--footer-text-family);
+  font-size: var(--footer-text-size);
+}
+.text1 {
+  text-transform: uppercase;
+}

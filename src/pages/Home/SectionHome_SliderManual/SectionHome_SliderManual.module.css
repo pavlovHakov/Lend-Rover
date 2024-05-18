@@ -21,7 +21,7 @@
   width: 100%;
   height: auto;
 
-  padding-left: clamp(0rem, -1.5rem + 7.5vw, 7.5rem);
+  padding-left: clamp(2.5rem, -5.56rem + 17.08vw, 14.938rem);
   padding-top: clamp(1.563rem, 0.545rem + 4.07vw, 3.75rem);
   padding-bottom: clamp(1.563rem, 0.545rem + 4.07vw, 3.75rem);
 }
@@ -42,4 +42,9 @@
 }
 .link {
   margin-top: 40px;
+}
+@media (max-width: 755px) {
+  .blockText {
+    padding-left: clamp(1.188rem, -0.291rem + 5.92vw, 2.5rem);
+  }
 }
