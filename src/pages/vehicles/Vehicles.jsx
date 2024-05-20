@@ -3,8 +3,8 @@ import Navigation from "./navigation/Navigation";
 
 const Vehicles = () => {
   return (
-    <div className={`${styles.wrapper} ${styles.showWrapper}`}>
-      <div className={`${styles.content} ${styles.showContent}`}>
+    <div className={styles.wrapper}>
+      <div className={styles.content}>
         <Navigation />
       </div>
     </div>
