@@ -28,6 +28,7 @@ function SliderAuto() {
     autoplaySpeed: 6960,
     swipeToSlide: true,
     pauseOnHover: false,
+    adaptiveHeight: true,
 
     nextArrow: <SampleNextArrow />,
     prevArrow: <SampleNextArrow />,

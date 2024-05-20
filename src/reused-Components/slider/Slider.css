@@ -42,15 +42,6 @@
   left: 0;
   transform: rotate(180deg);
 }
-.slider-img {
-  width: 100%;
-  height: auto;
-  cursor: grab;
-}
-.img1 {
-  width: 100%;
-  height: auto;
-}
 .video-hidden,
 .slider-img {
   width: 100%;
