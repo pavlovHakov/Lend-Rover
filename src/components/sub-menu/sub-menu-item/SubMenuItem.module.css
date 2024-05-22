@@ -26,3 +26,8 @@
     letter-spacing: 1px;
   }
 }
+@media (max-width: 806px) {
+  .li {
+    margin-right: 24px;
+  }
+}

@@ -47,6 +47,7 @@
   width: 100%;
   max-height: 664px;
   overflow: hidden;
+  cursor: grab;
 }
 .video-styles {
   width: 100%;

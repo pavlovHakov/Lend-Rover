@@ -13,7 +13,6 @@ const MenuItem = ({ text, page, id, isActive, handleClick, setShow, show }) => {
     }
     if (window.innerWidth < 1186) {
       handleClick(id);
-      console.log(id);
       setShow((show) => !show);
     }
   };
