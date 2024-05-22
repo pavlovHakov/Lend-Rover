@@ -3,18 +3,24 @@ import img_arrow from "./../../../../img/components-img/arrow-black.png";
 import MenuInfo from "../../menu-info/MenuInfo";
 import { useState } from "react";
 
-const MenuItem = ({ text, page, id, isActive, handleClick }) => {
+const MenuItem = ({ text, page, id, isActive, handleClick, setShow, show }) => {
   const [toggleActive, setToggleActive] = useState(false);
 
   const clickLi = () => {
-    handleClick(id);
-    setToggleActive((toggleActive) => !toggleActive);
+    if (window.innerWidth > 1186) {
+      handleClick(id);
+      setToggleActive((toggleActive) => !toggleActive);
+    }
+    if (window.innerWidth < 1186) {
+      handleClick(id);
+      console.log(id);
+      setShow((show) => !show);
+    }
   };
   return (
-    <li className={styles.li}>
+    <li onClick={clickLi} className={styles.li}>
       <span
         // to={path}
-        onClick={clickLi}
         className={isActive ? `${styles.link} ${styles.active}` : styles.link}
       >
         {text}

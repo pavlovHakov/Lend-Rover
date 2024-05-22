@@ -7,7 +7,7 @@
   position: relative;
 }
 .link {
-  display: inline-block;
+  display: block;
   font-family: var(--header-menu-family);
   font-size: var(--header-menu-size);
   color: #4a4f54;

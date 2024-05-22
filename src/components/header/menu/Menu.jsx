@@ -29,6 +29,8 @@ const Menu = ({
             key={index}
             handleClick={() => setActiveIndex(index)}
             isActive={activeIndex === index}
+            show={show}
+            setShow={setShow}
             {...item}
           />
         ))}

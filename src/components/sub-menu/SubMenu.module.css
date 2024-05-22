@@ -19,3 +19,15 @@
   width: auto;
   display: flex;
 }
+
+@media (max-width: 1327px) {
+  .wrapper {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 1186px) {
+  .active {
+    top: clamp(3rem, 2.477rem + 2.61vw, 4.438rem);
+  }
+}
