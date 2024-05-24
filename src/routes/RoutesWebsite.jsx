@@ -1,6 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
-import Home from "../../pages/Home/Home";
-import ErrorPages from "../../pages/errorPages/ErrorPages";
+import Home from "../pages/Home/Home";
+import ErrorPages from "../pages/errorPages/ErrorPages";
 
 const RoutesWebsite = () => {
   return (

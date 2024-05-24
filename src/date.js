@@ -72,11 +72,6 @@ export const footer_ul3 = [
   { id: 2, text: "ADVENTURE TRAVEL" },
 ];
 
-// import img_13 from "./img/footer/face.svg";
-// import img_14 from "./img/footer/youtoobe.svg";
-// import img_15 from "./img/footer/insta.svg";
-// import img_16 from "./img/footer/tiktok.svg";
-
 export const footer_social = [
   { id: 1, text: "FACEBOOK" },
   { id: 2, text: "YOUTUBE" },
@@ -99,8 +94,8 @@ export const homeSliderManualArr = [
     id: "2",
     title: "DEFENDER 110",
     subtitle: "Enhanced space with seven seats and the option of a third row.",
-    img1: img_4,
-    img2: img_5,
+    img1: img_5,
+    img2: img_4,
     img3: img_6,
     img: img_4,
   },
@@ -108,18 +103,18 @@ export const homeSliderManualArr = [
     id: "3",
     title: "DEFENDER 90",
     subtitle: "Choose from either five or six seats.",
-    img1: img_7,
+    img1: img_9,
     img2: img_8,
-    img3: img_9,
+    img3: img_7,
     img: img_7,
   },
   {
     id: "4",
     title: "DEFENDER HARDTOP",
     subtitle: "Available with five, six or seven seats in two body designs.",
-    img1: img_10,
+    img1: img_12,
     img2: img_11,
-    img3: img_12,
+    img3: img_10,
     img: img_10,
   },
 ];

@@ -7,7 +7,7 @@ import Header from "./../components/header/Header";
 import "./../styles/main.css";
 import "./App.css";
 import { useState } from "react";
-import RoutesWebsite from "../components/routes/RoutesWebsite";
+import RoutesWebsite from "./../routes/RoutesWebsite";
 
 const App = () => {
   const [isRetailers, setIsRetailers] = useState(true);

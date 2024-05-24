@@ -24,6 +24,9 @@
   background-color: #e9ecec;
 }
 .img {
+  position: absolute;
+  right: 27px;
+  top: 20px;
   display: none;
 }
 
@@ -51,5 +54,10 @@
   }
   .active {
     width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .img {
+    margin-right: clamp(0.688rem, -0.371rem + 4.71vw, 1.688rem);
   }
 }
