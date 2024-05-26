@@ -21,8 +21,8 @@
   width: 100%;
   height: auto;
 
-  padding-left: clamp(2.5rem, -5.56rem + 17.08vw, 14.938rem);
-  padding-top: clamp(1.563rem, 0.545rem + 4.07vw, 3.75rem);
+  padding-left: 25px;
+  padding-top: clamp(0rem, -0.526rem + 2.11vw, 2rem);
   padding-bottom: clamp(1.563rem, 0.545rem + 4.07vw, 3.75rem);
 }
 .title {
@@ -42,7 +42,7 @@
   opacity: 0.6;
 }
 .link {
-  margin-top: 40px;
+  margin-top: clamp(0.938rem, 0.576rem + 1.45vw, 2.313rem);
 }
 @media (max-width: 755px) {
   .blockText {
