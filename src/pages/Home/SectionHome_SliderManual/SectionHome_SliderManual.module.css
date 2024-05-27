@@ -1,11 +1,11 @@
-.wrapp {
+.wrapper {
   width: 100%;
   height: auto;
   margin-top: clamp(0rem, -0.313rem + 1.56vw, 1.563rem);
   padding-left: clamp(0rem, -26.786rem + 28.57vw, 7.5rem);
   padding-right: clamp(0rem, -26.786rem + 28.57vw, 7.5rem);
   background-image: linear-gradient(
-    to right bottom,
+    to bottom,
     #ffffff,
     #fafafa,
     #f5f5f5,

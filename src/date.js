@@ -88,7 +88,6 @@ export const homeSliderManualArr = [
     img1: img_1,
     img2: img_2,
     img3: img_3,
-    img: img_1,
   },
   {
     id: "2",
@@ -97,7 +96,6 @@ export const homeSliderManualArr = [
     img1: img_5,
     img2: img_4,
     img3: img_6,
-    img: img_4,
   },
   {
     id: "3",
@@ -106,7 +104,6 @@ export const homeSliderManualArr = [
     img1: img_9,
     img2: img_8,
     img3: img_7,
-    img: img_7,
   },
   {
     id: "4",
@@ -115,7 +112,6 @@ export const homeSliderManualArr = [
     img1: img_12,
     img2: img_11,
     img3: img_10,
-    img: img_10,
   },
 ];
 

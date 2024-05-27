@@ -9,7 +9,7 @@ const SectionHome_SliderManual = () => {
   const [itemSlider, setItemSlider] = useState(homeSliderManualArr);
 
   return (
-    <div className={styles.wrapp}>
+    <div className={styles.wrapper}>
       {itemSlider.map((item) => (
         <div key={item.id} className={styles.sliderBlock}>
           <SliderManual {...item} />
