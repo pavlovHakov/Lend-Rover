@@ -7,7 +7,7 @@
 }
 .wrapperAbsolute {
   display: flex;
-  width: 100%;
+  width: 300%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -18,9 +18,29 @@
   display: block;
   height: auto;
 }
-img {
+.img {
   width: 100%;
   height: auto;
   object-fit: cover;
   object-position: 0% 100%;
+}
+.arrowNext {
+  position: absolute;
+  margin-top: -15px;
+  top: 50%;
+  right: 70px;
+  cursor: pointer;
+}
+.arrowNext:hover {
+  opacity: 0.8;
+}
+.arrowPrev {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.arrowPrev:hover {
+  opacity: 0.8;
 }
