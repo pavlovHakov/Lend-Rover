@@ -1,43 +1,40 @@
-import styles from "./SliderManual.module.css";
-import arrowSlider from "./../../img/components-img/arrow-white.png";
-import { useState } from "react";
+import "./SliderManual.css";
+import "@splidejs/react-splide/css";
+import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 
-const SliderManual = ({ img1, img2, img3 }) => {
-  const [absoluteWidth, setAbsoluteWidth] = useState(0);
-  const sum = 0;
-
-  const Prev = () => {
-    setAbsoluteWidth((item) => item - 100);
-    console.log(absoluteWidth);
-  };
-  const Next = () => {
-    console.log("Next");
+const AutoplayExample = ({ imgSlider }) => {
+  const options = {
+    type: "loop",
+    gap: "1rem",
+    autoplay: false,
+    pauseOnHover: false,
+    resetProgress: false,
+    height: "auto",
   };
 
   return (
-    <div className={styles.wrapperRelative}>
-      <div className={styles.wrapperAbsolute}>
-        <div className={styles.blockImg}>
-          <img className={styles.img} src={img1} alt="img" />
+    <div className="wrapper">
+      <Splide
+        options={options}
+        aria-labelledby="autoplay-example-heading"
+        hasTrack={false}
+      >
+        <div style={{ position: "relative" }}>
+          <SplideTrack>
+            {imgSlider.map((slide) => (
+              <SplideSlide key={slide.src}>
+                <img src={slide.img} alt="img" />
+              </SplideSlide>
+            ))}
+          </SplideTrack>
         </div>
 
-        <div className={styles.blockImg}>
-          <img className={styles.img} src={img2} alt="img" />
+        <div className="splide__progress">
+          <div className="splide__progress__bar" />
         </div>
-
-        <div className={styles.blockImg}>
-          <img className={styles.img} src={img3} alt="img" />
-        </div>
-      </div>
-      {/* arrow */}
-      <div onClick={Prev} className={styles.arrowPrev}>
-        <img src={arrowSlider} alt="prev" />
-      </div>
-      <div onClick={Next} className={styles.arrowNext}>
-        <img src={arrowSlider} alt="prev" />
-      </div>
+      </Splide>
     </div>
   );
 };
 
-export default SliderManual;
+export default AutoplayExample;

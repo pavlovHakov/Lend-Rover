@@ -85,33 +85,45 @@ export const homeSliderManualArr = [
     title: "DEFENDER 130",
     subtitle:
       "Best-in-class space for up to eight passengers with a third row of seating.",
+    imgSlider: [
+      { id: 1, img: img_1 },
+      { id: 2, img: img_2 },
+      { id: 3, img: img_3 },
+    ],
     img1: img_1,
-    img2: img_2,
-    img3: img_3,
   },
   {
     id: "2",
     title: "DEFENDER 110",
     subtitle: "Enhanced space with seven seats and the option of a third row.",
-    img1: img_5,
-    img2: img_4,
-    img3: img_6,
+    imgSlider: [
+      { id: 1, img: img_4 },
+      { id: 2, img: img_5 },
+      { id: 3, img: img_6 },
+    ],
+    img1: img_4,
   },
   {
     id: "3",
     title: "DEFENDER 90",
     subtitle: "Choose from either five or six seats.",
-    img1: img_9,
-    img2: img_8,
-    img3: img_7,
+    imgSlider: [
+      { id: 1, img: img_7 },
+      { id: 2, img: img_8 },
+      { id: 3, img: img_9 },
+    ],
+    img1: img_7,
   },
   {
     id: "4",
     title: "DEFENDER HARDTOP",
     subtitle: "Available with five, six or seven seats in two body designs.",
-    img1: img_12,
-    img2: img_11,
-    img3: img_10,
+    imgSlider: [
+      { id: 1, img: img_10 },
+      { id: 2, img: img_11 },
+      { id: 3, img: img_12 },
+    ],
+    img1: img_10,
   },
 ];
 

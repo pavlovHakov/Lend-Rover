@@ -1,0 +1,16 @@
+.splide__progress__bar {
+  background: #24691b !important;
+}
+.splide__arrow--next {
+  right: clamp(1rem, -0.003rem + 4.01vw, 4.813rem) !important;
+}
+
+.splide__arrow--prev {
+  left: clamp(1rem, -0.003rem + 4.01vw, 4.813rem) !important;
+}
+.splide__arrow {
+  top: 53% !important;
+}
+.splide__pagination__page {
+  margin: 10px !important;
+}
