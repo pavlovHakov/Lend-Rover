@@ -14,3 +14,6 @@
 .splide__pagination__page {
   margin: 10px !important;
 }
+.splide__slide {
+  cursor: grab;
+}
