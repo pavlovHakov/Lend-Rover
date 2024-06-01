@@ -153,11 +153,6 @@ import vehicles__img_7 from "./img/range-rover/img-7.png";
 import vehicles__img_8 from "./img/range-rover/img-8.png";
 import vehicles__img_9 from "./img/range-rover/img-9.png";
 
-import icon_1 from "./img/range-rover/icon-fuell.svg";
-import icon_2 from "./img/range-rover/icon-co2.svg";
-import icon_3 from "./img/range-rover/icon-kreslo.svg";
-import icon_4 from "./img/range-rover/icon-porshen.svg";
-
 export const RangeRover = [
   {
     id: 0,
@@ -347,4 +342,15 @@ export const RangeRover = [
       { id: 3, text: "1,651✦ LITRES" },
     ],
   },
+];
+
+export const OwnersMenuOWNERSHIP_1 = [
+  { id: 1, text: "OVERVIEW" },
+  { id: 2, text: "INCONTROL" },
+  { id: 3, text: "4x4 DRIVING TIPS" },
+];
+export const OwnersMenuOWNERSHIP_2 = [
+  { id: 1, text: "CARING FOR YOUR LAND ROVER" },
+  { id: 2, text: "SOFTWARE UPDATES" },
+  { id: 3, text: "BOOK AN EXPERIENCE" },
 ];
