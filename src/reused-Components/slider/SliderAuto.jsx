@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
-import img1 from "./../../img/slider-auto/img-2.png";
+import img1 from "./../../img/slider-auto/img-1.png";
+import posterImg from "./../../img/slider-auto/posterImg.png";
 import Slider from "react-slick";
 import "./Slider.css";
 
@@ -45,6 +46,7 @@ function SliderAuto() {
               autoPlay
               loop
               muted
+              poster={posterImg}
             />
           </div>
           <div className="slider-text-block">
