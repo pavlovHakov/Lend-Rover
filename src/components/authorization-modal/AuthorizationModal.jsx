@@ -1,6 +1,6 @@
 import styles from "./AuthorizationModal.module.css";
 import AuthorizationForm from "./authorization-form/AuthorizationForm";
-import logo from "./../../img/components-img/logo-white.png";
+import logo from "./../../img/components-img/logo-green.png";
 import out from "./../../img/components-img/cross-white.png";
 
 const AuthorizationModal = ({ toggleRetailers, isRetailers }) => {
