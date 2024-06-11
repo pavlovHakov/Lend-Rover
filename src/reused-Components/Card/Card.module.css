@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .block {
   width: 22.4%;
   height: auto;
@@ -22,6 +29,8 @@
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0);
+  -webkit-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
   transition: all 1s ease-out;
 }
 .blackBlock:hover {

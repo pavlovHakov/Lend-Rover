@@ -1,7 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .navigation {
   width: 325px;
   height: 100%;
   background-color: #fff;
+  -webkit-animation: show-content 1.3s ease;
   animation: show-content 1.3s ease;
 }
 
@@ -16,6 +24,18 @@
   padding-left: 15px;
   background-color: #f7f7f7;
   outline: 1px solid rgba(214, 214, 214, 0.39);
+}
+
+@-webkit-keyframes show-content {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes show-content {

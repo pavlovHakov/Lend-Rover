@@ -1,8 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .wrapper {
   position: fixed;
   left: 0;
   width: 100%;
   height: 100vh;
+  -webkit-animation: hide-wrapper 0.8s ease;
   animation: hide-wrapper 0.8s ease;
 }
 
@@ -13,6 +21,7 @@
   top: 123px;
   left: 0;
   background: rgb(255, 255, 255);
+  -webkit-animation: hide-content 0.8s ease;
   animation: hide-content 0.8s ease;
   z-index: 1;
 }
@@ -20,6 +29,15 @@
 .h1 {
   text-align: center;
   margin-top: 300px;
+}
+
+@-webkit-keyframes hide-content {
+  0% {
+    height: 333px;
+  }
+  100% {
+    height: 0;
+  }
 }
 
 @keyframes hide-content {
@@ -31,7 +49,17 @@
   }
 }
 .showContent {
+  -webkit-animation: show-content 0.7s ease;
   animation: show-content 0.7s ease;
+}
+
+@-webkit-keyframes show-content {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 333px;
+  }
 }
 
 @keyframes show-content {
@@ -40,6 +68,17 @@
   }
   100% {
     height: 333px;
+  }
+}
+
+@-webkit-keyframes hide-wrapper {
+  0% {
+    display: block;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    display: none;
+    background: rgba(255, 255, 255, 0);
   }
 }
 
@@ -56,7 +95,19 @@
 .showWrapper {
   display: block;
   background: rgba(255, 255, 255, 0.7);
+  -webkit-animation: show-wrapper 0.7s ease;
   animation: show-wrapper 0.7s ease;
+}
+
+@-webkit-keyframes show-wrapper {
+  0% {
+    display: none;
+    background: rgba(255, 255, 255, 0);
+  }
+  100% {
+    display: block;
+    background: rgba(255, 255, 255, 0.7);
+  }
 }
 
 @keyframes show-wrapper {

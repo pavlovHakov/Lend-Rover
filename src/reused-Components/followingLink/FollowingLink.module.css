@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .link {
   font-family: "Manrope", sans-serif;
   font-size: 10px;
@@ -21,6 +28,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   position: absolute;
   top: -1px;

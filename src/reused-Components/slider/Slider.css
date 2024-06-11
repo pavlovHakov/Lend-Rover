@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .slider-container {
   border: none;
   outline: none;
@@ -23,6 +30,8 @@
   content: "";
   width: 20px;
   height: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   background: url(./../../img/components-img/arrow-white.png);
   background-size: cover;
@@ -34,12 +43,16 @@
   content: "";
   width: 20px;
   height: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   background: url(./../../img/components-img/arrow-white.png);
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .video-hidden,
@@ -47,11 +60,13 @@
   width: 100%;
   max-height: 664px;
   overflow: hidden;
+  cursor: -webkit-grab;
   cursor: grab;
 }
 .video-styles {
   width: 100%;
   background-color: black;
+  cursor: -webkit-grab;
   cursor: grab;
 }
 
@@ -76,7 +91,11 @@
 
 .slick-dots {
   width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   bottom: 18%;
   left: 2%;
@@ -94,9 +113,16 @@
 
 .slider-text-block {
   width: 83%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-left: clamp(1.563rem, -0.757rem + 9.28vw, 10.375rem);
 }

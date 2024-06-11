@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .wrapper {
   width: auto;
   height: auto;
@@ -12,7 +19,11 @@
   margin-bottom: 25px;
 }
 .linkBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 10px;
 }
@@ -21,6 +32,8 @@
   height: 50px;
   display: inline-block;
   margin-right: 10px;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
   transition: all 0.1s;
 }
 .img1 {
@@ -28,6 +41,8 @@
   height: 60px;
   display: inline-block;
   margin-right: 0px;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
   transition: all 0.1s;
 }
 .linkBlock:hover .text {
@@ -48,6 +63,8 @@
 
 @media (max-width: 757px) {
   .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .text {

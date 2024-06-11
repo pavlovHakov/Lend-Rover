@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .wrapper {
   position: fixed;
   width: 100vw;
@@ -5,8 +12,20 @@
   background: rgba(255, 255, 255, 0);
   z-index: 50;
   display: none;
+  -webkit-animation: hide-wrapper 0.8s ease;
   animation: hide-wrapper 0.8s ease;
   z-index: 1000;
+}
+
+@-webkit-keyframes hide-wrapper {
+  0% {
+    display: block;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    display: none;
+    background: rgba(255, 255, 255, 0);
+  }
 }
 
 @keyframes hide-wrapper {
@@ -22,7 +41,19 @@
 .showWrapper {
   display: block;
   background: rgba(255, 255, 255, 0.7);
+  -webkit-animation: show-wrapper 0.7s ease;
   animation: show-wrapper 0.7s ease;
+}
+
+@-webkit-keyframes show-wrapper {
+  0% {
+    display: none;
+    background: rgba(255, 255, 255, 0);
+  }
+  100% {
+    display: block;
+    background: rgba(255, 255, 255, 0.7);
+  }
 }
 
 @keyframes show-wrapper {
@@ -59,7 +90,16 @@
   right: 0;
   opacity: 1;
   z-index: 1150;
+  -webkit-animation: hide-sidebar 0.7s ease;
   animation: hide-sidebar 0.7s ease;
+}
+@-webkit-keyframes hide-sidebar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -1000px;
+  }
 }
 @keyframes hide-sidebar {
   0% {
@@ -72,7 +112,16 @@
 
 .inSidebar {
   top: 0;
+  -webkit-animation: show-sidebar 0.7s ease;
   animation: show-sidebar 0.7s ease;
+}
+@-webkit-keyframes show-sidebar {
+  0% {
+    top: -1000px;
+  }
+  100% {
+    top: 0;
+  }
 }
 @keyframes show-sidebar {
   0% {
@@ -89,6 +138,8 @@
   padding: 9px;
   margin-left: auto;
   cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .cnpOut:hover {

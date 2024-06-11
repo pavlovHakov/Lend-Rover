@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .li {
   width: 100%;
   height: 63px;
@@ -5,8 +12,14 @@
 }
 
 .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
   height: 100%;
@@ -16,6 +29,8 @@
   font-weight: 600;
   padding-left: 12px;
   position: relative;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 .link:hover {
@@ -27,6 +42,8 @@
   height: 22px;
   background-image: url(./../../../img/components-img/arrow-black-smol.png);
   background-size: contain;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
   display: block;
   position: absolute;

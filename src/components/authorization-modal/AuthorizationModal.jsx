@@ -1,6 +1,6 @@
 import styles from "./AuthorizationModal.module.css";
 import AuthorizationForm from "./authorization-form/AuthorizationForm";
-import logo from "./../../img/components-img/Land-Rover-Logo-PNG-Image.png";
+import logo from "./../../img/components-img/logo-white.png";
 import out from "./../../img/components-img/cross-white.png";
 
 const AuthorizationModal = ({ toggleRetailers, isRetailers }) => {

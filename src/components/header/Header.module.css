@@ -1,14 +1,30 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .wrapper {
   position: fixed;
   width: 100%;
   height: clamp(3rem, 2.455rem + 2.73vw, 4.5rem);
   background: #fff;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(214, 214, 214, 0.39);
   box-shadow: 0px 3px 3px 0px rgba(214, 214, 214, 0.39);
   top: 0;
   left: 0;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   z-index: 100;
 }

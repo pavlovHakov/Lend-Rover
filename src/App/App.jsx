@@ -1,4 +1,3 @@
-
 import AuthorizationModal from "../components/authorization-modal/AuthorizationModal";
 import BuildsModal from "../components/builds-modal/BuildsModal";
 import Footer from "../components/footer/Footer";
@@ -22,8 +21,6 @@ const App = () => {
 
   return (
     <div className="wrapper-app">
-      {/* Spinner */}
-
       <Header
         toggleRetailers={() => toggleRetailers()}
         isRetailers={isRetailers}
