@@ -25,7 +25,7 @@ function SliderAuto() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 6960,
     swipeToSlide: true,
     pauseOnHover: false,
